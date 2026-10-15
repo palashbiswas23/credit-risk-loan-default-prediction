@@ -1,0 +1,27 @@
+# Sensitive and raw datasets
+*.csv
+*.xlsx
+*.xls
+
+# Trained model files
+*.joblib
+*.pkl
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and environment variables
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local type-checking files
+typings/
